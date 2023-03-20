@@ -126,7 +126,7 @@ class CuentaJoven(Cuenta):
 
     def retirar(self):
         if not(cuenta1.es_titular_valido()):
-            print("RETIRO DENEGADA - CTA. JOVEN EDAD -Solo mayores 17 y menores 25-")
+            print("RETIRO DENEGADO - CTA. JOVEN EDAD -Solo mayores 17 y menores 25-")
         else: # ejecuto operaciones
             while True:
                 try:
